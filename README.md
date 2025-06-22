@@ -1,12 +1,52 @@
-# React + Vite
+# 🎵 Spotify 2.0 Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Spotify-inspired music streaming web application built using **React**, **Tailwind CSS**, and the **Spotify Web API**. It features real-time playback, top tracks from the user's account, a beautiful UI, and a responsive layout.
 
-Currently, two official plugins are available:
+![Spotify 2.0 UI Screenshot](https://github.com/user-attachments/assets/553d238e-26df-4f15-b181-e177b7ca7975) <!-- Replace with actual screenshot if available -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎧 **Play Spotify preview tracks**
+- 🔍 **Search interface**
+- 🏠 **Home with top tracks**
+- ❤️ **Library placeholder**
+- 📱 **Responsive UI**
+- 🎛️ **Functional audio player**
+- 🎨 **Styled with Tailwind CSS**
+- 🛠️ **Built with React Router & Hooks**
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** React (Vite), React Router DOM
+- **Styling:** Tailwind CSS
+- **Audio:** Native HTML5 `<audio>`
+- **API:** Spotify Web API
+
+---
+
+## 🔑 Setup & Run Locally
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/spotify-2.0-clone.git
+cd spotify-2.0-clone
+ ```
+### 2. Install Dependencies
+ ```bash
+npm install
+```
+### 3. Create a Spotify Developer App
+Go to: Spotify Developer Dashboard
+
+Create an app and get the Client ID and Client Secret
+
+Set redirect URI (e.g. http://localhost:5173/)
+
+### 4. Run the App
+```bash
+npm run dev
+```
