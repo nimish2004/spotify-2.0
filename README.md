@@ -32,7 +32,7 @@ A modern Spotify-inspired music streaming web application built using **React**,
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/spotify-2.0-clone.git
+git clone https://github.com/nimish2004/spotify-2.0/tree/main
 cd spotify-2.0-clone
  ```
 ### 2. Install Dependencies
