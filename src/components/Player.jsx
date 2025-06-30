@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { FaPlay, FaPause, FaStepBackward, FaStepForward } from 'react-icons/fa';
 
 const Player = ({ currentTrack }) => {
   const audioRef = useRef(null);
@@ -40,27 +41,31 @@ const Player = ({ currentTrack }) => {
       </div>
 
       {/* Controls */}
-      <div className="flex items-center gap-4 justify-center w-full md:w-1/3">
-        <button className="text-lg hover:text-green-400">⏮️</button>
+      <div className="flex items-center gap-6 justify-center w-full md:w-1/3">
+        <button className="hover:text-green-400 transition">
+          <FaStepBackward size={20} />
+        </button>
         <button
           onClick={togglePlay}
-          className="text-2xl hover:text-green-400"
+          className="hover:text-green-400 transition"
         >
-          {isPlaying ? '⏸️' : '▶️'}
+          {isPlaying ? <FaPause size={28} /> : <FaPlay size={28} />}
         </button>
-        <button className="text-lg hover:text-green-400">⏭️</button>
+        <button className="hover:text-green-400 transition">
+          <FaStepForward size={20} />
+        </button>
       </div>
 
-      {/* Progress Bar (mocked for now) */}
+      {/* Progress Bar */}
       <div className="hidden md:flex items-center gap-2 w-full md:w-1/3">
         <span className="text-xs text-gray-400">0:00</span>
-        <div className="flex-1 bg-gray-600 h-1 rounded">
+        <div className="flex-1 bg-gray-600 h-1 rounded overflow-hidden">
           <div className="bg-green-500 h-1 rounded w-1/3"></div>
         </div>
-        <span className="text-xs text-gray-400">0:30</span>
+        <span className="text-xs text-gray-400">2:30</span>
       </div>
 
-      {/* Hidden audio */}
+      {/* Hidden Audio */}
       <audio ref={audioRef} />
     </div>
   );
