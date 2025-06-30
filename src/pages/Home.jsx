@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AudioPlayer from '../components/AudioPlayer';
 
-const token = 'BQAl8dcGmGiyc6D-V3jEGQsu0fzXyw1zdHzqsabJ9RvSy39pyhh_jAR_23HtZF_0gOVbYR8cHcKJTXsbGC57cqvqFsBjwPslYYhKtYR8lPnr-EV0M6vfRGuxva5HOEF-WGFHQj5rokTKQS3dkM9U_w5GRRe_TVQaMzLWk5mD7pJOraoZrBkRirLWo7SH2QGkDdIRt2Dxa8NPa_WLQe_JYJuxWoaTEojvu_jnn4MehDdOm6NY9DfrpEKwtgG_wtwr7Kqrzc7uSpG4PG2j8wbYlYlXh5e5QdLBSUe8lDY5SSRUN_9l9TlDs0uKwbs1Dgqa'; // Replace with a fresh token
+const token = 'BQAMeREEhHqUrGqcIBLpgrg0ViAC2uiqwA5heGtez8zO28ZbFiOy5YxFpkTaNW5XW_URS7nXJrSRhli71JNkTUmbQcSmnfE0319Q766sMp8thKeSPZC1IaDSdeoardynDjEfZISwLKe-JYrh6mVE7dEbM9RcYb2qIIkSjjqUPRwhjXoLZaugnlLE-2-X7iuR7c9OhnQ8jJ0yG5pnRc8PKxSv4hPe_lR9AyezI78gTh1oK52Ahw3MLZD6hY59lxtEcJcK84s6Fh6Iq_HOiZa9KBwUOApvFJV6DDvjjzvb8A7nqczIdTMZX_ZageM-NArE';
 
 const Home = ({ search, setCurrentTrack }) => {
   const [tracks, setTracks] = useState([]);
