@@ -2,7 +2,9 @@
 
 A modern Spotify-inspired music streaming web application built using **React**, **Tailwind CSS**, and the **Spotify Web API**. It features real-time playback, top tracks from the user's account, a beautiful UI, and a responsive layout.
 
-![Spotify 2.0 UI Screenshot](https://github.com/user-attachments/assets/553d238e-26df-4f15-b181-e177b7ca7975) <!-- Replace with actual screenshot if available -->
+![image](https://github.com/user-attachments/assets/a46253a2-da88-42fd-a03e-15cc7a775bb0)
+
+ <!-- Replace with actual screenshot if available -->
 
 ---
 
